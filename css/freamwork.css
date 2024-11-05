@@ -1,0 +1,346 @@
+:root {
+    --grey-color: grey;
+      --blue-color: #0075ff;
+      --blue-alt-color: #0d69d5;
+      --orange-color: #f59e0b;
+      --green-color: #22c55e;
+      --red-color: #f44336;
+      
+  
+  }  
+/* star flex */
+.d-flex {
+    display: flex;
+}
+
+.d-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.align-c {
+    align-items: center;
+}
+
+.d-flex-center-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.gap-20 {
+    gap: 20px;
+
+}
+
+.d-block {
+    display: block;
+}
+
+@media (max-width:767px) {
+    .d-block-mobile {
+        display: block;
+    }
+
+    .hide-mobile{
+        display: none;
+
+    }
+
+    .column-derection-mobile {
+        flex-direction: column;
+    }
+
+    .flex-wrap-mobile {
+      flex-wrap: wrap;
+    }
+    
+}
+
+
+
+
+/* end flex */
+
+/* star width */
+
+.width-250 {
+    width: 85px;
+  }
+.full-width {
+    width: 100%;
+}
+
+.fit-width {
+    width: fit-content;
+}
+
+
+/* end width */
+
+/* text font */
+.txt-black {
+    color: black;
+}
+
+.txt-align-end {
+  text-align: end;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-25 {
+    font-size: 25px;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.txt-bold {
+    font-weight: bold;
+}
+
+.txt-color-grey {
+    color: var(--grey-color);
+}
+
+.txt-color-blue {
+    color: var(--blue-color);
+}
+
+.txt-color-orange {
+    color: var(--orange-color);
+}
+
+.txt-color-green {
+    color: var(--green-color);
+}
+
+.txt-color-red {
+    color: var(--red-color);
+}
+
+.txt-color-white {
+    color: white;
+}
+
+@media (max-width:767px) {
+    .txt-c-mobile {
+        text-align: center;
+    }
+
+    .fs-13-mobile {
+        font-size: 13px;
+    }
+    
+}
+
+
+
+/* end font text*/
+
+/* Start Padding + Margin */
+
+.p-10 {
+    padding: 10px;
+  }
+  .p-15 {
+    padding: 15px;
+  }
+  .p-20 {
+    padding: 20px;
+  }
+  .pt-10 {
+    padding-top: 10px;
+  }
+  .pt-15 {
+    padding-top: 15px;
+  }
+  .pt-20 {
+    padding-top: 20px;
+  }
+  .pb-10 {
+    padding-bottom: 10px;
+  }
+  .pb-15 {
+    padding-bottom: 15px;
+  }
+  .pb-20 {
+    padding-bottom: 20px;
+  }
+
+   .pb-30 {
+    padding-bottom: 30px;
+   }
+
+  .pl-15 {
+    padding-left: 15px;
+  }
+
+  .pl-40 {
+    padding-left: 40px;
+  }
+  .m-0 {
+    margin: 0;
+  }
+  .m-15 {
+    margin: 15px;
+  }
+  .m-20 {
+    margin: 20px;
+  }
+  .mt-0 {
+    margin-top: 0;
+  }
+  .mt-5 {
+    margin-top: 5px;
+  }
+  .mt-10 {
+    margin-top: 10px;
+  }
+  .mt-15 {
+    margin-top: 15px;
+  }
+  .mt-20 {
+    margin-top: 20px;
+  }
+  .mt-25 {
+    margin-top: 25px;
+  }
+
+  .mr-0 {
+    margin-right: 0;
+  }
+
+  .mr-5 {
+    margin-right: 5px;
+  }
+
+
+  .mr-10 {
+    margin-right: 10px;
+  }
+  .mr-15 {
+    margin-right: 15px;
+  }
+  .mb-5 {
+    margin-bottom: 5px;
+  }
+  .mb-10 {
+    margin-bottom: 10px;
+  }
+  .mb-15 {
+    margin-bottom: 15px;
+  }
+  .mb-20 {
+    margin-bottom: 20px;
+  }
+  .mb-25 {
+    margin-bottom: 25px;
+  }
+
+  .mb-50 {
+    margin-bottom: 50px;
+  }
+
+  .ml-20 {
+    margin-left: 20px;
+  }
+
+  .ml-170 {
+    margin-left: 170px;
+  }
+
+  .ml-40 {
+    margin-left: 40px;
+  }
+
+
+
+  .btn-shape {
+    padding: 4px 10px;
+    border-radius: 6px;
+  }
+
+  @media (max-width:767px) {
+    .mb-5-mobile {
+        margin-bottom: 5px;
+    }
+
+    .mb-10-mobile {
+        margin-bottom: 10px;
+    }
+
+   
+    
+}
+
+  /* End Padding + Margin */
+  
+
+  /* stars backgrourd */
+  .bg-color-white {
+    background-color: white;
+  }
+
+  .bg-color-grey {
+    background-color: #eee;
+  }
+
+  .bg-color-blue {
+    background-color: rgb(0 117 255 / 20%);
+
+  }
+
+  .bg-color-orange {
+    background-color: rgb(245 158 11 / 20%);
+
+  }
+
+  .bg-color-green {
+    background-color: rgb(34 197 94 / 20%);
+
+  }
+
+  .bg-color-red {
+    background-color: #fcc;
+
+  }
+
+  /* end background */
+
+  /* start-position */
+  .p-relative {
+    position: relative;
+  }
+  /* en position */
+
+  /* star border { */
+    .bor-rad {
+        border-radius: 6px;
+    }
+
+  /* end border */
+
+  
+  
